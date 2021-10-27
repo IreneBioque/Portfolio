@@ -5,6 +5,9 @@ a:active {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
+  @media all and (min-width: 1200px) {
+    font-size: 20px;
+  }
 }
 
 .far,
