@@ -9,6 +9,9 @@
   justify-content: center;
   color: white;
   padding: 0 10px;
+  @media all and (min-width: 768px) {
+    align-items: center;
+  }
   &__title {
     font-size: 50px;
     margin-bottom: 50px;
