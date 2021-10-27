@@ -12,6 +12,9 @@
   @media all and (min-width: 768px) {
     align-items: center;
   }
+  @media all and (min-width: 1200px) {
+    background-image: url(../images/layout1-1.png);
+  }
   &__title {
     font-size: 50px;
     margin-bottom: 50px;
@@ -24,6 +27,7 @@
     font-weight: 600;
     @media all and (min-width: 1200px) {
       font-size: 30px;
+      margin-bottom: 90px;
     }
   }
 }
