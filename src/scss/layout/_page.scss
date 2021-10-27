@@ -1,4 +1,46 @@
 .main {
   background-color: #000000;
   color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.section {
+  margin: 0 20px;
+  // padding: 10px 0;
+  &__title {
+    color: #8867a1;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+}
+.section__work {
+  text-align: center;
+  font-weight: 600;
+  &--text {
+    padding-bottom: 10px;
+  }
+  &--ul {
+    text-align: start;
+    &__li {
+      line-height: 1.3;
+    }
+  }
+  &--links {
+    padding: 10px;
+  }
+  &--image {
+    height: 300px;
+    width: 250px;
+  }
+}
+ul.section__work--ul > li:before {
+  content: '-' ' ';
+}
+.contact_ul {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  &--li {
+    padding: 10px;
+  }
 }

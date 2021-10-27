@@ -1,4 +1,5 @@
 .hero {
+  font-family: 'Montserrat', sans-serif;
   background-image: url(../images/layout1.jpg);
   background-size: cover;
   background-position: center;
@@ -11,5 +12,9 @@
   &__title {
     font-size: 50px;
     margin-bottom: 50px;
+    font-weight: bold;
+  }
+  &__paragraph {
+    font-weight: 600;
   }
 }
