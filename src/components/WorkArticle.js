@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { CSSTransition } from 'react-transition-group';
 
 const WorkArticle = (props) => {
   const [tech, setTech] = useState('');
@@ -13,24 +12,10 @@ const WorkArticle = (props) => {
     setTech('');
   };
   return (
-    <article class='section__work section'>
-      <h3 class='section__work--title'>{props.title}</h3>
-      <p class='section__work--parrafo'>{props.description}</p>
-      {/* <ul class='section__work--ul'>{technologies}</ul> */}
-      <div class='section__work--links'>
-        <a href={props.hrefProyect} target='_blank' rel='noreferrer'>
-          Abrir proyecto
-        </a>
-        <a
-          href={props.hrefGithub}
-          title={props.title}
-          target='_blank'
-          rel='noreferrer'
-        >
-          <i class='fab fa-github'></i>
-        </a>
-      </div>
+    <article class={props.classArticle}>
       <div class='container'>
+        <h3 class='section__work--title'>{props.title}</h3>
+        <p class='section__work--parrafo'>{props.description}</p>
         <img
           src={props.photo}
           alt={props.altImage}
