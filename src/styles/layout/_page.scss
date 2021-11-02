@@ -101,8 +101,27 @@
     }
   }
 }
-ul.section__work--ul > li:before {
-  content: '-' ' ';
+.section__work--image:hover {
+  opacity: 30%;
+  transition: opacity 0.5s linear 0.2s;
+}
+.container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  // transition: 0.8s ease-in 0.2s;
+}
+.listTech {
+  background-color: #9393c5;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 10px;
 }
 .contact_ul {
   display: flex;
