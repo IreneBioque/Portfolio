@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.94911d51.chunk.css",
+    "main.css": "./static/css/main.79318025.chunk.css",
     "main.js": "./static/js/main.4a12d3ea.chunk.js",
     "main.js.map": "./static/js/main.4a12d3ea.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.3976f0fa.js",
@@ -8,7 +8,7 @@
     "static/js/2.244afe5c.chunk.js": "./static/js/2.244afe5c.chunk.js",
     "static/js/2.244afe5c.chunk.js.map": "./static/js/2.244afe5c.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.94911d51.chunk.css.map": "./static/css/main.94911d51.chunk.css.map",
+    "static/css/main.79318025.chunk.css.map": "./static/css/main.79318025.chunk.css.map",
     "static/js/2.244afe5c.chunk.js.LICENSE.txt": "./static/js/2.244afe5c.chunk.js.LICENSE.txt",
     "static/media/IreneBioque.d7c47755.jpg": "./static/media/IreneBioque.d7c47755.jpg",
     "static/media/git-blanco.06fea7d0.png": "./static/media/git-blanco.06fea7d0.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.3976f0fa.js",
     "static/js/2.244afe5c.chunk.js",
-    "static/css/main.94911d51.chunk.css",
+    "static/css/main.79318025.chunk.css",
     "static/js/main.4a12d3ea.chunk.js"
   ]
 }
