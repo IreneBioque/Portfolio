@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Roll the dices",
-      "img": "./images/roll-the-dices.jpg",
+      "img": "../../images/roll-the-dices.jpg",
       "tech": ["HTML", "SCSS", "JavaScript", "Gulp"],
       "about": "Este proyecto consiste en un lanzador de dados para poder jugar a rol en cualquier parte",
       "github": "https://github.com/IreneBioque/roll-dices",

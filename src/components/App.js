@@ -18,13 +18,31 @@ import PhotoProyect4 from '../images/guess-the-number.jpg';
 import PhotoProyect5 from '../images/web-layout.jpg';
 import Data from '../data/data.json';
 const App = () => {
-  const RollTheDices = ['HTML', 'SCSS', 'JavaScript', 'Gulp'];
+  // const RollTheDices = ['HTML', 'SCSS', 'JavaScript', 'Gulp'];
   const RickAndMorty = ['HTML', 'SCSS', 'REACT.JS'];
   const Serieteca = ['HTML', 'SCSS', 'JavaScript', 'Gulp'];
   const GuessTheNumber = ['HTML', 'SCSS', 'JavaScript'];
   const WebLayout = ['HTML', 'SCSS', 'Gulp'];
-  const [data, setData] = useEffect(Data);
-  console.log(data[0].id);
+  const [data, setData] = useState(Data);
+  const datafiltered = data.proyects.map((data) => {
+    return {
+      id: data.id,
+      name: data.name,
+      img: data.img,
+      tech: data.tech,
+      about: data.about,
+      github: data.github,
+      page: data.page,
+    };
+  });
+  const rollTheDices = datafiltered.find((proyect) => proyect.id === 1);
+  console.log(rollTheDices);
+  const routeData = useRouteMatch('/proyect/:id');
+  const ProyectId = routeData !== null ? routeData.params.id : '';
+  const selectedProyect = datafiltered.find(
+    (proyect) => proyect.id === parseInt(ProyectId)
+  );
+  console.log('Esto es selected proyect', selectedProyect);
   return (
     <div>
       {/* <Header /> */}
@@ -33,29 +51,36 @@ const App = () => {
           <Route path='/' exact>
             <Hero />
             <WorkList
-              RollTheDices={RollTheDices}
-              RickAndMorty={RickAndMorty}
-              Serieteca={Serieteca}
-              GuessTheNumber={GuessTheNumber}
-              WebLayout={WebLayout}
+              RollTheDices={rollTheDices.tech}
+              RickAndMorty={datafiltered[1].tech}
+              Serieteca={datafiltered[2].tech}
+              GuessTheNumber={datafiltered[3].tech}
+              WebLayout={datafiltered[4].tech}
               PhotoProyect1={PhotoProyect1}
               PhotoProyect2={PhotoProyect2}
               PhotoProyect3={PhotoProyect3}
               PhotoProyect4={PhotoProyect4}
               PhotoProyect5={PhotoProyect5}
+              data={datafiltered}
             />
             <About />
             <Contact />
             <Technologies />
           </Route>
-          <Route path='/proyect/rollthedices'>
+
+          <Route path='/proyect/:id'>
+            <section className='characterDetail'>
+              <WorkDetail proyect={selectedProyect} />
+            </section>
+          </Route>
+          {/* <Route path='/proyect/rollthedices'>
             <WorkDetail
-              title='Roll the Dices'
+              title={rollTheDices.name}
               PhotoProyect={PhotoProyect1}
-              description='Este proyecto consiste en un lanzador de dados para poder jugar a rol en cualquier parte'
-              tech={RollTheDices}
-              github='https://github.com/IreneBioque/roll-dices'
-              hrefProyect='https://irenebioque.github.io/roll-dices/'
+              description={rollTheDices.about}
+              tech={rollTheDices.tech}
+              github={rollTheDices.github}
+              hrefProyect={rollTheDices.page}
             />
           </Route>
           <Route path='/proyect/RickandMorty'>
@@ -97,7 +122,7 @@ const App = () => {
               hrefGithub='https://github.com/IreneBioque/web-layout'
               hrefProyect='https://irenebioque.github.io/web-layout/'
             />
-          </Route>
+          </Route> */}
         </Switch>
       </main>
 

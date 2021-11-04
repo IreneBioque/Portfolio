@@ -1,10 +1,18 @@
 import WorkArticle from './WorkArticle';
 const WorkList = (props) => {
+  const list = props.data.map((proyect) => {
+    return (
+      <li key={proyect.id}>
+        <WorkArticle dataProyect={proyect} />
+      </li>
+    );
+  });
   return (
     <div>
       <h2 className='section__title'>Mis Proyectos</h2>
       <section id='work' className='section_proyects'>
-        <WorkArticle
+        <ul>{list}</ul>
+        {/* <WorkArticle
           photo={props.PhotoProyect1}
           title='Roll the Dices'
           description='Lanzador de dados'
@@ -48,7 +56,7 @@ const WorkList = (props) => {
           list={props.WebLayout}
           classArticle='layout section__work section'
           hrefLink='weblayout'
-        />
+        /> */}
       </section>
     </div>
   );
