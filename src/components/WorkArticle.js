@@ -1,18 +1,18 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 const WorkArticle = (props) => {
-  // const [tech, setTech] = useState('');
-  // const technologies = props.list.map((data) => {
-  //   return <li className='listTech'>{data}</li>;
-  // });
-  // const handleTech = () => {
-  //   setTech(technologies);
-  // };
-  // const handleTechOut = () => {
-  //   setTech('');
-  // };
+  const [tech, setTech] = useState('listTech');
+  const technologies = props.dataProyect.tech.map((data) => {
+    return <li className={tech}>{data}</li>;
+  });
+  const handleTech = () => {
+    setTech('listTech2');
+  };
+  const handleTechOut = () => {
+    setTech('listTech');
+  };
   return (
-    <article class={props.classArticle}>
+    <article className='section__work section'>
       <Link to={`./proyect/${props.dataProyect.id}`}>
         <div class='container'>
           <h3 class='section__work--title'>{props.dataProyect.name}</h3>
@@ -21,10 +21,10 @@ const WorkArticle = (props) => {
             src={props.dataProyect.img}
             alt={props.dataProyect.name}
             class='section__work--image'
-            // onMouseOver={handleTech}
-            // onMouseLeave={handleTechOut}
+            onMouseOver={handleTech}
+            onMouseLeave={handleTechOut}
           />
-          <ul class='centrado'>{props.dataProyect.tech}</ul>
+          <ul class='tech_over'>{technologies}</ul>
         </div>
       </Link>
     </article>
