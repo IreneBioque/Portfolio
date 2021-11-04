@@ -18,11 +18,6 @@ import PhotoProyect4 from '../images/guess-the-number.jpg';
 import PhotoProyect5 from '../images/web-layout.jpg';
 import Data from '../data/data.json';
 const App = () => {
-  // const RollTheDices = ['HTML', 'SCSS', 'JavaScript', 'Gulp'];
-  const RickAndMorty = ['HTML', 'SCSS', 'REACT.JS'];
-  const Serieteca = ['HTML', 'SCSS', 'JavaScript', 'Gulp'];
-  const GuessTheNumber = ['HTML', 'SCSS', 'JavaScript'];
-  const WebLayout = ['HTML', 'SCSS', 'Gulp'];
   const [data, setData] = useState(Data);
   const datafiltered = data.proyects.map((data) => {
     return {
@@ -33,10 +28,9 @@ const App = () => {
       about: data.about,
       github: data.github,
       page: data.page,
+      class: data.class,
     };
   });
-  const rollTheDices = datafiltered.find((proyect) => proyect.id === 1);
-  console.log(rollTheDices);
   const routeData = useRouteMatch('/proyect/:id');
   const ProyectId = routeData !== null ? routeData.params.id : '';
   const selectedProyect = datafiltered.find(
@@ -50,19 +44,7 @@ const App = () => {
         <Switch>
           <Route path='/' exact>
             <Hero />
-            <WorkList
-              RollTheDices={rollTheDices.tech}
-              RickAndMorty={datafiltered[1].tech}
-              Serieteca={datafiltered[2].tech}
-              GuessTheNumber={datafiltered[3].tech}
-              WebLayout={datafiltered[4].tech}
-              PhotoProyect1={PhotoProyect1}
-              PhotoProyect2={PhotoProyect2}
-              PhotoProyect3={PhotoProyect3}
-              PhotoProyect4={PhotoProyect4}
-              PhotoProyect5={PhotoProyect5}
-              data={datafiltered}
-            />
+            <WorkList data={datafiltered} />
             <About />
             <Contact />
             <Technologies />
@@ -73,56 +55,6 @@ const App = () => {
               <WorkDetail proyect={selectedProyect} />
             </section>
           </Route>
-          {/* <Route path='/proyect/rollthedices'>
-            <WorkDetail
-              title={rollTheDices.name}
-              PhotoProyect={PhotoProyect1}
-              description={rollTheDices.about}
-              tech={rollTheDices.tech}
-              github={rollTheDices.github}
-              hrefProyect={rollTheDices.page}
-            />
-          </Route>
-          <Route path='/proyect/RickandMorty'>
-            <WorkDetail
-              title='Rick and Morty Search Engine'
-              PhotoProyect={PhotoProyect2}
-              description='Este proyecto consiste en un buscador de personajes de Rick y morty.'
-              tech={RickAndMorty}
-              github='https://github.com/IreneBioque/Rick-and-Morty-Search-Engine'
-              hrefProyect='https://irenebioque.github.io/Rick-and-Morty-Search-Engine/#/'
-            />
-          </Route>
-          <Route path='/proyect/Serieteca'>
-            <WorkDetail
-              title='Serieteca'
-              PhotoProyect={PhotoProyect3}
-              description='Este proyecto consiste en un buscador de series.'
-              tech={Serieteca}
-              github='https://github.com/IreneBioque/Serieteca'
-              hrefProyect='https://irenebioque.github.io/Serieteca/'
-            />
-          </Route>
-          <Route path='/proyect/Guessthenumber'>
-            <WorkDetail
-              title='Guess the number'
-              PhotoProyect={PhotoProyect4}
-              description='Este proyecto consiste en un juego, donde tendrás que adivinar el número del 1 al 100.'
-              tech={GuessTheNumber}
-              github='https://github.com/IreneBioque/Guess-the-number'
-              hrefProyect='https://irenebioque.github.io/Guess-the-number/'
-            />
-          </Route>
-          <Route path='/proyect/weblayout'>
-            <WorkDetail
-              title='Web layout'
-              PhotoProyect={PhotoProyect5}
-              description='Este proyecto consiste en la maquetación de una página web, de forma responsive'
-              tech={WebLayout}
-              hrefGithub='https://github.com/IreneBioque/web-layout'
-              hrefProyect='https://irenebioque.github.io/web-layout/'
-            />
-          </Route> */}
         </Switch>
       </main>
 
