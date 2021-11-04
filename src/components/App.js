@@ -19,18 +19,20 @@ import PhotoProyect5 from '../images/web-layout.jpg';
 import Data from '../data/data.json';
 const App = () => {
   const [data, setData] = useState(Data);
-  const datafiltered = data.proyects.map((data) => {
-    return {
-      id: data.id,
-      name: data.name,
-      img: data.img,
-      tech: data.tech,
-      about: data.about,
-      github: data.github,
-      page: data.page,
-      class: data.class,
-    };
-  });
+  const datafiltered = data.proyects
+    .map((data) => {
+      return {
+        id: data.id,
+        name: data.name,
+        img: data.img,
+        tech: data.tech,
+        about: data.about,
+        github: data.github,
+        page: data.page,
+        class: data.class,
+      };
+    })
+    .reverse();
   const routeData = useRouteMatch('/proyect/:id');
   const ProyectId = routeData !== null ? routeData.params.id : '';
   const selectedProyect = datafiltered.find(
