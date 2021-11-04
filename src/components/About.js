@@ -11,9 +11,9 @@ const About = () => {
           creando, aprendiendo y formando parte de un equipo. Actualmente estoy
           buscando iniciarme profesionalmente como programadora.
         </p>
-        <div>
+        {/* <div>
           <img src={PersonalPhoto} alt='foto Irene' class='image_about' />
-        </div>
+        </div> */}
       </article>
     </section>
   );
