@@ -2,21 +2,21 @@
   "proyects": [
     {
       "id": 1,
-      "name": "Roll the dices",
-      "img": "https://i.imgur.com/EukjW7k.jpeg",
-      "tech": ["HTML", "SCSS", "JAVASCRIPT", "GULP"],
-      "about": "Este proyecto consiste en un lanzador de dados para poder jugar a rol en cualquier parte",
-      "github": "https://github.com/IreneBioque/roll-dices",
-      "page": "https://irenebioque.github.io/roll-dices/"
+      "name": "Web layout",
+      "img": "https://i.imgur.com/4TUIGv2.jpg",
+      "tech": ["HTML", "SCSS", "GULP"],
+      "about": "Este proyecto consiste en la maquetación de una página web, de forma responsive",
+      "github": "https://github.com/IreneBioque/web-layout",
+      "page": "https://irenebioque.github.io/web-layout/"
     },
     {
       "id": 2,
-      "name": "Rick and Morty Search Engine",
-      "img": "https://i.imgur.com/gGxq9WW.jpg",
-      "tech": ["HTML", "SCSS", "REACT.JS"],
-      "about": "Este proyecto consiste en un buscador de personajes de Rick y morty.",
-      "github": "https://github.com/IreneBioque/Rick-and-Morty-Search-Engine",
-      "page": "https://irenebioque.github.io/Rick-and-Morty-Search-Engine/#/"
+      "name": "Guess the number",
+      "img": "https://i.imgur.com/VMHmIju.jpg",
+      "tech": ["HTML", "SCSS", "JAVASCRIPT"],
+      "about": "Este proyecto consiste en un juego, donde tendrás que adivinar el número del 1 al 100.",
+      "github": "https://github.com/IreneBioque/Guess-the-number",
+      "page": "https://irenebioque.github.io/Guess-the-number/"
     },
     {
       "id": 3,
@@ -27,32 +27,33 @@
       "github": "https://github.com/IreneBioque/Serieteca",
       "page": "https://irenebioque.github.io/Serieteca/"
     },
+
     {
       "id": 4,
-      "name": "Guess the number",
-      "img": "https://i.imgur.com/VMHmIju.jpg",
-      "tech": ["HTML", "SCSS", "JAVASCRIPT"],
-      "about": "Este proyecto consiste en un juego, donde tendrás que adivinar el número del 1 al 100.",
-      "github": "https://github.com/IreneBioque/Guess-the-number",
-      "page": "https://irenebioque.github.io/Guess-the-number/"
+      "name": "Rick and Morty Search Engine",
+      "img": "https://i.imgur.com/gGxq9WW.jpg",
+      "tech": ["HTML", "SCSS", "REACT.JS"],
+      "about": "Este proyecto consiste en un buscador de personajes de Rick y morty.",
+      "github": "https://github.com/IreneBioque/Rick-and-Morty-Search-Engine",
+      "page": "https://irenebioque.github.io/Rick-and-Morty-Search-Engine/#/"
     },
     {
       "id": 5,
-      "name": "Web layout",
-      "img": "https://i.imgur.com/4TUIGv2.jpg",
-      "tech": ["HTML", "SCSS", "GULP"],
-      "about": "Este proyecto consiste en la maquetación de una página web, de forma responsive",
-      "github": "https://github.com/IreneBioque/web-layout",
-      "page": "https://irenebioque.github.io/web-layout/"
-    },
-    {
-      "id": 6,
       "name": "Bussiness card creator",
       "img": "https://i.imgur.com/K2kTIoI.jpg",
       "tech": ["HTML", "SCSS", "REACT.JS", "NODE.JS", "SQLITE"],
       "about": "Esta aplicación consiste en un creador de tarjetas profesionales.",
       "github": "https://github.com/IreneBioque/Bussiness-card-creator",
       "page": "https://awesome-profile-nodemonies.herokuapp.com/#/"
+    },
+    {
+      "id": 6,
+      "name": "Roll the dices",
+      "img": "https://i.imgur.com/EukjW7k.jpeg",
+      "tech": ["HTML", "SCSS", "JAVASCRIPT", "GULP"],
+      "about": "Este proyecto consiste en un lanzador de dados para poder jugar a rol en cualquier parte",
+      "github": "https://github.com/IreneBioque/roll-dices",
+      "page": "https://irenebioque.github.io/roll-dices/"
     }
   ]
 }
