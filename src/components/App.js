@@ -16,12 +16,15 @@ import PhotoProyect2 from '../images/rick-y-morty.png';
 import PhotoProyect3 from '../images/serieteca.jpg';
 import PhotoProyect4 from '../images/guess-the-number.jpg';
 import PhotoProyect5 from '../images/web-layout.jpg';
+import Data from '../data/data.json';
 const App = () => {
   const RollTheDices = ['HTML', 'SCSS', 'JavaScript', 'Gulp'];
   const RickAndMorty = ['HTML', 'SCSS', 'REACT.JS'];
   const Serieteca = ['HTML', 'SCSS', 'JavaScript', 'Gulp'];
   const GuessTheNumber = ['HTML', 'SCSS', 'JavaScript'];
   const WebLayout = ['HTML', 'SCSS', 'Gulp'];
+  const [data, setData] = useEffect(Data);
+  console.log(data[0].id);
   return (
     <div>
       {/* <Header /> */}
