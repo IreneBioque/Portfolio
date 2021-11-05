@@ -47,13 +47,13 @@ const WorkDetail = (props) => {
           className='workDetail__image'
         />
         <h3 className='workDetail__title'>Sobre este proyecto</h3>
-        <p className='workDetail__paragraph'>{props.proyect.about}</p>
+        <p className='workDetail__paragraph'>{props.proyect.description}</p>
         <h3 className='workDetail__title'>Tecnologías</h3>
         <ul className='workDetail__list'>{technologies}</ul>
         <h3 className='workDetail__title'>Github</h3>
         <p className='workDetail__paragraph'>
-          Si quieres colaborar, darme alguna idea, ver el código del proyecto te
-          dejo aquí el enlace a Github ¡Gracias!
+          Si quieres colaborar, darme alguna idea o ver el código del proyecto
+          te dejo aquí el enlace a Github ¡Gracias!
         </p>
         <a
           className='workDetail__link'
