@@ -28,7 +28,7 @@
       "about": "Este proyecto consiste en un buscador de series.",
       "github": "https://github.com/IreneBioque/Serieteca",
       "page": "https://irenebioque.github.io/Serieteca/",
-      "descripcion": "Si buscabas una página donde buscar series que quieres ver, descubrir nuevas series o simplemente hacer un seguimiento de las series que estás viendo ¡lo has encontrado!. Desde esta página podrás buscar series y al pulsar sobre ellas se añadirán a favoritos. Puedes quitarla de favoritos siempre que quieras, y cuando vuelvas a abrir la página se habrán guardado tus preferencias. El diseño de este poyecto es responsive, por lo que puedes disfrutarlo desde cualquier dispositivo. "
+      "descripcion": "Si buscabas una página donde buscar series que quieres ver, descubrir nuevas series o simplemente hacer un seguimiento de las series que estás viendo ¡la has encontrado!. Desde esta página podrás buscar series y al pulsar sobre ellas se añadirán a favoritos. Puedes quitarla de favoritos siempre que quieras, y cuando vuelvas a abrir la página se habrán guardado tus preferencias. El diseño de este proyecto es responsive, por lo que puedes disfrutarlo desde cualquier dispositivo. "
     },
 
     {
@@ -39,7 +39,7 @@
       "about": "Este proyecto consiste en un buscador de personajes de Rick y morty.",
       "github": "https://github.com/IreneBioque/Rick-and-Morty-Search-Engine",
       "page": "https://irenebioque.github.io/Rick-and-Morty-Search-Engine/#/",
-      "descripcion": "Si eres un fan de la serie de televisión Rick y Morty, o si simplemente te gustan los personajes y te preguntas que habrán pasado con ellos, esta aplicación es para ti. Este proyecto consiste en un buscador de personajes de Rick y Morty, donde podrás buscar por nombre y filtrar por especie además de por planeta de origen. Si pinchas sobre un personaje, te aparecerá información detallada de este, como su especie, su planeta de origen, su estado y el número de episodios en los que ha aparecido. Si en el buscador pones una url que no existe, verás que un portal te mandará a tu anterior dimensión. Podrás disfrutar de este proyecto desde cualquier dispositivo, ya que tiene un diseño responsive  "
+      "descripcion": "Si eres un fan de la serie de televisión Rick y Morty, o si simplemente te gustan los personajes y te preguntas que habrán pasado con ellos, esta aplicación es para ti. Este proyecto consiste en un buscador de personajes de Rick y Morty, donde podrás buscar por nombre y filtrar por especie además de por planeta de origen. Si pinchas sobre un personaje, te aparecerá información detallada de este, como su especie, su planeta de origen, su estado y el número de episodios en los que ha aparecido. Si en el buscador pones una url que no existe, verás que un portal te mandará a tu anterior dimensión. Podrás disfrutar de este proyecto desde cualquier dispositivo, ya que tiene un diseño responsive."
     },
     {
       "id": 5,
