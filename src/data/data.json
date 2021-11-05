@@ -7,7 +7,8 @@
       "tech": ["HTML", "SCSS", "GULP"],
       "about": "Este proyecto consiste en la maquetación de una página web, de forma responsive",
       "github": "https://github.com/IreneBioque/web-layout",
-      "page": "https://irenebioque.github.io/web-layout/"
+      "page": "https://irenebioque.github.io/web-layout/",
+      "descripcion": "Este proyecto consiste en la maquetación de una página web, de forma responsive para poder visualizarla correctamente desde cualquier dispositivo. "
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "tech": ["HTML", "SCSS", "JAVASCRIPT"],
       "about": "Este proyecto consiste en un juego, donde tendrás que adivinar el número del 1 al 100.",
       "github": "https://github.com/IreneBioque/Guess-the-number",
-      "page": "https://irenebioque.github.io/Guess-the-number/"
+      "page": "https://irenebioque.github.io/Guess-the-number/",
+      "descripcion": "A veces necesitamos distraernos con un pequeño juego, y por eso te presento Guess the number. En este pequeño juego, tendrás que adivinar un número del 1 al 100. Hay una pista que te indica si el número que has escrito es válido, es muy bajo o muy alto, y justo debajo te aparecerán el número de intentos. Si lo pruebas, te invito a decirme que te ha parecido y en cuantos intentos lo has conseguido. Este juego lo puedes disfrutar desde cualquier dispositivo."
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "tech": ["HTML", "SCSS", "JAVASCRIPT", "GULP"],
       "about": "Este proyecto consiste en un buscador de series.",
       "github": "https://github.com/IreneBioque/Serieteca",
-      "page": "https://irenebioque.github.io/Serieteca/"
+      "page": "https://irenebioque.github.io/Serieteca/",
+      "descripcion": "Si buscabas una página donde buscar series que quieres ver, descubrir nuevas series o simplemente hacer un seguimiento de las series que estás viendo ¡lo has encontrado!. Desde esta página podrás buscar series y al pulsar sobre ellas se añadirán a favoritos. Puedes quitarla de favoritos siempre que quieras, y cuando vuelvas a abrir la página se habrán guardado tus preferencias. El diseño de este poyecto es responsive, por lo que puedes disfrutarlo desde cualquier dispositivo. "
     },
 
     {
@@ -35,7 +38,8 @@
       "tech": ["HTML", "SCSS", "REACT.JS"],
       "about": "Este proyecto consiste en un buscador de personajes de Rick y morty.",
       "github": "https://github.com/IreneBioque/Rick-and-Morty-Search-Engine",
-      "page": "https://irenebioque.github.io/Rick-and-Morty-Search-Engine/#/"
+      "page": "https://irenebioque.github.io/Rick-and-Morty-Search-Engine/#/",
+      "descripcion": "Si eres un fan de la serie de televisión Rick y Morty, o si simplemente te gustan los personajes y te preguntas que habrán pasado con ellos, esta aplicación es para ti. Este proyecto consiste en un buscador de personajes de Rick y Morty, donde podrás buscar por nombre y filtrar por especie además de por planeta de origen. Si pinchas sobre un personaje, te aparecerá información detallada de este, como su especie, su planeta de origen, su estado y el número de episodios en los que ha aparecido. Si en el buscador pones una url que no existe, verás que un portal te mandará a tu anterior dimensión. Podrás disfrutar de este proyecto desde cualquier dispositivo, ya que tiene un diseño responsive  "
     },
     {
       "id": 5,
@@ -44,7 +48,8 @@
       "tech": ["HTML", "SCSS", "REACT.JS", "NODE.JS", "SQLITE"],
       "about": "Esta aplicación consiste en un creador de tarjetas profesionales.",
       "github": "https://github.com/IreneBioque/Bussiness-card-creator",
-      "page": "https://awesome-profile-nodemonies.herokuapp.com/#/"
+      "page": "https://awesome-profile-nodemonies.herokuapp.com/#/",
+      "descripcion": "Con esta aplicación podrás crear tus tarjetas de visita profesionales. Lo único que tienes que hacer es elegir la paleta de colores, rellenar el formulario, subir una foto y darle a crear tarjeta. Automáticamente se te abrirá otra pestaña donde se verá tu tarjeta de visita, con una url compartible. En la misma página del formulario, tienes la opción que te permite compartir el link directamente por twitter. Además, los datos que introduzcas se quedan guardados en el navegador, por lo que si cierras la página y en otro momento quieres cambiar un dato, puedes hacerlo sin tener que introducir todos los datos otra vez. Y si quieres cambiar todos los datos, simplemente le tienes que dar al botón del reset y se borrarán todos los datos que hayas introducido previamente.Puedes disfrutar de este proyecto desde cualquier dispositivo, ya que tiene un diseño responsive"
     },
     {
       "id": 6,
@@ -53,7 +58,8 @@
       "tech": ["HTML", "SCSS", "JAVASCRIPT", "GULP"],
       "about": "Este proyecto consiste en un lanzador de dados para poder jugar a rol en cualquier parte",
       "github": "https://github.com/IreneBioque/roll-dices",
-      "page": "https://irenebioque.github.io/roll-dices/"
+      "page": "https://irenebioque.github.io/roll-dices/",
+      "descripcion": "¿Nunca has querido jugar al rol pero se te han olvidado tus dados? ¿Alguna vez has querido apostar a un número con tus amigos/pareja para ver si te invitaban a cenar? Pues con este lanzador de dados online podrás hacerlo desde cualquier parte. Solo tienes que seleccionar el dado que quieras tirar y darle al botón. Puedes elegir el valor del dado (100, 20, 12, 10, 8, 6 o 4 caras) y tantos dados como quieras. Si quieres realizar tiradas de forma habitual, puedes guardar tus tiradas. Abriendo el menú guardar tirada te aparecerá un desplegable para que pongas nombre a tu tirada y eliges los dados que quieras. Estas tiradas guardadas aparecerán la próxima vez que abras la página, teniendo también la opción de borrar las tiradas guardadas si así lo deseas. Puedes disfrutar de este proyecto desde cualquier dispositivo, ya que tiene un diseño responsive."
     }
   ]
 }
