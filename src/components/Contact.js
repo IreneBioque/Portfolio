@@ -30,7 +30,7 @@ const Contact = () => {
           </li>
           <li class='contact_ul--li'>
             <a
-              href='https://www.linkedin.com/in/irenebioquemu%C3%B1oz/'
+              href='https://www.linkedin.com/in/irenebioque/'
               title='Link to Linkedin Profile'
               target='_blank'
               rel='noreferrer'
