@@ -29,7 +29,7 @@ const App = () => {
         about: data.about,
         github: data.github,
         page: data.page,
-        class: data.class,
+        description: data.descripcion,
       };
     })
     .reverse();
