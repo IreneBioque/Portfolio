@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.a1692cae.chunk.css",
-    "main.js": "./static/js/main.c8a90e31.chunk.js",
-    "main.js.map": "./static/js/main.c8a90e31.chunk.js.map",
+    "main.css": "./static/css/main.535f47dc.chunk.css",
+    "main.js": "./static/js/main.3d62b0f3.chunk.js",
+    "main.js.map": "./static/js/main.3d62b0f3.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.3976f0fa.js",
     "runtime-main.js.map": "./static/js/runtime-main.3976f0fa.js.map",
     "static/js/2.fc44ae9b.chunk.js": "./static/js/2.fc44ae9b.chunk.js",
     "static/js/2.fc44ae9b.chunk.js.map": "./static/js/2.fc44ae9b.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.a1692cae.chunk.css.map": "./static/css/main.a1692cae.chunk.css.map",
+    "static/css/main.535f47dc.chunk.css.map": "./static/css/main.535f47dc.chunk.css.map",
     "static/js/2.fc44ae9b.chunk.js.LICENSE.txt": "./static/js/2.fc44ae9b.chunk.js.LICENSE.txt",
     "static/media/IreneBioque.d7c47755.jpg": "./static/media/IreneBioque.d7c47755.jpg",
     "static/media/git-blanco.06fea7d0.png": "./static/media/git-blanco.06fea7d0.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.3976f0fa.js",
     "static/js/2.fc44ae9b.chunk.js",
-    "static/css/main.a1692cae.chunk.css",
-    "static/js/main.c8a90e31.chunk.js"
+    "static/css/main.535f47dc.chunk.css",
+    "static/js/main.3d62b0f3.chunk.js"
   ]
 }
