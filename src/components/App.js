@@ -42,7 +42,7 @@ const App = () => {
   return (
     <div>
       {/* <Header /> */}
-      <main class='main'>
+      <main className='main'>
         <Switch>
           <Route path='/' exact>
             <Hero />

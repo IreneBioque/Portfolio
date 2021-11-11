@@ -14,17 +14,17 @@ const WorkArticle = (props) => {
   return (
     <article className='section__work section'>
       <Link to={`./proyect/${props.dataProyect.id}`}>
-        <div class='container'>
-          <h3 class='section__work--title'>{props.dataProyect.name}</h3>
-          <p class='section__work--parrafo'>{props.dataProyect.about}</p>
+        <div className='container'>
+          <h3 className='section__work--title'>{props.dataProyect.name}</h3>
+          <p className='section__work--parrafo'>{props.dataProyect.about}</p>
           <img
             src={props.dataProyect.img}
             alt={props.dataProyect.name}
-            class='section__work--image'
+            className='section__work--image'
             onMouseOver={handleTech}
             onMouseLeave={handleTechOut}
           />
-          <ul class='tech_over'>{technologies}</ul>
+          <ul className='tech_over'>{technologies}</ul>
         </div>
       </Link>
     </article>

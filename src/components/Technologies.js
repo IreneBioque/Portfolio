@@ -9,28 +9,28 @@ import logoSQL from '../images/sql-blanco.png';
 const Technologies = () => {
   return (
     <section id='technologies'>
-      <h2 class='section__title technologies__title'>Tecnologías</h2>
-      <ul class='technologies'>
+      <h2 className='section__title technologies__title'>Tecnologías</h2>
+      <ul className='technologies'>
         <li>
-          <img src={logoSASS} alt='SCSS' class='tech_img sass' />
+          <img src={logoSASS} alt='SCSS' className='tech_img sass' />
         </li>
         <li>
-          <img src={logoHTML} alt='HTML' class='tech_img html' />
+          <img src={logoHTML} alt='HTML' className='tech_img html' />
         </li>
         <li>
-          <img src={logoJS} alt='JS' class='tech_img js' />
+          <img src={logoJS} alt='JS' className='tech_img js' />
         </li>
         <li>
-          <img src={logoReact} alt='REACT' class='tech_img react' />
+          <img src={logoReact} alt='REACT' className='tech_img react' />
         </li>
         <li>
-          <img src={logoGit} alt='GIT' class='tech_img git' />
+          <img src={logoGit} alt='GIT' className='tech_img git' />
         </li>
         <li>
-          <img src={logoNode} alt='NODE' class='tech_img node' />
+          <img src={logoNode} alt='NODE' className='tech_img node' />
         </li>
         <li>
-          <img src={logoSQL} alt='SQL' class='tech_img sql' />
+          <img src={logoSQL} alt='SQL' className='tech_img sql' />
         </li>
       </ul>
     </section>

@@ -29,7 +29,7 @@ const WorkDetail = (props) => {
       <h1 className='titleDetail'>{props.proyect.name}</h1>
       <Link to='/'>
         <p className='Link'>
-          <i class='fas fa-arrow-left arrow'></i>Volver atrás
+          <i className='fas fa-arrow-left arrow'></i>Volver atrás
         </p>
       </Link>
       <a
@@ -61,7 +61,7 @@ const WorkDetail = (props) => {
           target='_blank'
           rel='noreferrer'
         >
-          <i class='fab fa-github'></i>
+          <i className='fab fa-github'></i>
         </a>
       </div>
     </div>
