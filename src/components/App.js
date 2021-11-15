@@ -1,21 +1,17 @@
 // Fichero src/components/App.js
-import { useEffect, useState } from 'react';
-import { Link, Route, Switch, useRouteMatch } from 'react-router-dom';
+import {  useState } from 'react';
+import { Route, Switch, useRouteMatch } from 'react-router-dom';
 
 import '../styles/App.scss';
-import Header from './Header';
+// import Header from './Header';
 import Hero from './Hero';
 import WorkList from './WorkList';
 import About from './About';
 import Contact from './Contact';
 import Technologies from './Technologies';
 import WorkDetail from './WorkDetail';
-import Footer from './Footer';
-import PhotoProyect1 from '../images/roll-the-dices.jpg';
-import PhotoProyect2 from '../images/rick-y-morty.png';
-import PhotoProyect3 from '../images/serieteca.jpg';
-import PhotoProyect4 from '../images/guess-the-number.jpg';
-import PhotoProyect5 from '../images/web-layout.jpg';
+// import Footer from './Footer';
+
 import Data from '../data/data.json';
 const App = () => {
   const [data, setData] = useState(Data);
@@ -38,7 +34,6 @@ const App = () => {
   const selectedProyect = datafiltered.find(
     (proyect) => proyect.id === parseInt(ProyectId)
   );
-  console.log('Esto es selected proyect', selectedProyect);
   return (
     <div>
       {/* <Header /> */}
