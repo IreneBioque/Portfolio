@@ -1,11 +1,6 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
 import '../styles/layout/_workDetail.scss';
-import PhotoProyect1 from '../images/roll-the-dices.jpg';
-import PhotoProyect2 from '../images/rick-y-morty.png';
-import PhotoProyect3 from '../images/serieteca.jpg';
-import PhotoProyect4 from '../images/guess-the-number.jpg';
-import PhotoProyect5 from '../images/web-layout.jpg';
+
 const WorkDetail = (props) => {
   const technologies = props.proyect.tech.map((data) => {
     return <li>{data}</li>;

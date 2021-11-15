@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 const WorkArticle = (props) => {
   const [tech, setTech] = useState('listTech');
-  const technologies = props.dataProyect.tech.map((data) => {
-    return <li className={tech}>{data}</li>;
+  const technologies = props.dataProyect.tech.map((data, i) => {
+    return <li className={tech} key={i}>{data}</li>;
   });
   const handleTech = () => {
     setTech('listTech2');
