@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Web layout",
-      "img": "https://i.imgur.com/4TUIGv2.jpg",
+      "img": "https://raw.githubusercontent.com/IreneBioque/Portfolio/main/src/images/web-layout.jpg",
       "tech": ["HTML", "SCSS", "GULP"],
       "about": "Este proyecto consiste en la maquetación de una página web, de forma responsive",
       "github": "https://github.com/IreneBioque/web-layout",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "name": "Guess the number",
-      "img": "https://i.imgur.com/VMHmIju.jpg",
+      "img": "https://raw.githubusercontent.com/IreneBioque/Portfolio/main/src/images/guess-the-number.jpg",
       "tech": ["HTML", "SCSS", "JAVASCRIPT"],
       "about": "Este proyecto consiste en un juego, donde tendrás que adivinar el número del 1 al 100.",
       "github": "https://github.com/IreneBioque/Guess-the-number",
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "name": "Serieteca",
-      "img": "https://i.imgur.com/YjuPqyP.jpg",
+      "img": "https://raw.githubusercontent.com/IreneBioque/Portfolio/main/src/images/serieteca.jpg",
       "tech": ["HTML", "SCSS", "JAVASCRIPT", "GULP"],
       "about": "Este proyecto consiste en un buscador de series.",
       "github": "https://github.com/IreneBioque/Serieteca",
@@ -34,7 +34,7 @@
     {
       "id": 4,
       "name": "Rick and Morty Search Engine",
-      "img": "https://i.imgur.com/gGxq9WW.jpg",
+      "img": "https://raw.githubusercontent.com/IreneBioque/Portfolio/main/src/images/rick-y-morty.png",
       "tech": ["HTML", "SCSS", "REACT.JS"],
       "about": "Este proyecto consiste en un buscador de personajes de Rick y morty.",
       "github": "https://github.com/IreneBioque/Rick-and-Morty-Search-Engine",
@@ -44,7 +44,7 @@
     {
       "id": 5,
       "name": "Bussiness card creator",
-      "img": "https://i.imgur.com/K2kTIoI.jpg",
+      "img": "https://raw.githubusercontent.com/IreneBioque/Portfolio/main/src/images/bussiness-card-creator.jpg",
       "tech": ["HTML", "SCSS", "REACT.JS", "NODE.JS", "SQLITE"],
       "about": "Esta aplicación consiste en un creador de tarjetas profesionales.",
       "github": "https://github.com/IreneBioque/Bussiness-card-creator",
@@ -54,7 +54,7 @@
     {
       "id": 6,
       "name": "Roll the dices",
-      "img": "https://i.imgur.com/EukjW7k.jpeg",
+      "img": "https://raw.githubusercontent.com/IreneBioque/Portfolio/main/src/images/roll-the-dices.jpg",
       "tech": ["HTML", "SCSS", "JAVASCRIPT", "GULP"],
       "about": "Este proyecto consiste en un lanzador de dados para poder jugar a rol en cualquier parte",
       "github": "https://github.com/IreneBioque/roll-dices",
