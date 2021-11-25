@@ -3,7 +3,7 @@ import {  useState } from 'react';
 import { Route, Switch, useRouteMatch } from 'react-router-dom';
 
 import '../styles/App.scss';
-// import Header from './Header';
+import Header from './Header';
 import Hero from './Hero';
 import WorkList from './WorkList';
 import About from './About';
@@ -36,10 +36,10 @@ const App = () => {
   );
   return (
     <div>
-      {/* <Header /> */}
       <main className='main'>
         <Switch>
           <Route path='/' exact>
+            <Header />
             <Hero />
             <WorkList data={datafiltered} />
             <About />
