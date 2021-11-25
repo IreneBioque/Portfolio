@@ -54,8 +54,6 @@ const App = () => {
           </Route>
         </Switch>
       </main>
-
-      {/* <Footer /> */}
     </div>
   );
 };
