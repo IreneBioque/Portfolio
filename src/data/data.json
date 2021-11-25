@@ -12,6 +12,16 @@
     },
     {
       "id": 2,
+      "name": "Web grupal",
+      "img": "https://raw.githubusercontent.com/IreneBioque/Portfolio/main/src/images/grupal-web.jpg",
+      "tech": ["HTML", "SCSS", "GULP"],
+      "about": "Este proyecto es una página web sencilla.",
+      "github": "https://github.com/IreneBioque/Grupal-Web",
+      "page": "https://irenebioque.github.io/Grupal-Web/",
+      "descripcion": "Este proyecto consistió en realizar la maquetación de una página web, de forma responsive, con diferentes animaciones y transiciones. La web consta de un formulario que puedes rellenar para ponerte en contacto con el grupo."
+    },
+    {
+      "id": 3,
       "name": "Guess the number",
       "img": "https://raw.githubusercontent.com/IreneBioque/Portfolio/main/src/images/guess-the-number.jpg",
       "tech": ["HTML", "SCSS", "JAVASCRIPT"],
@@ -21,7 +31,7 @@
       "descripcion": "A veces necesitamos distraernos con un pequeño juego, y por eso te presento Guess the number. En este pequeño juego, tendrás que adivinar un número del 1 al 100. Hay una pista que te indica si el número que has escrito es válido, es muy bajo o muy alto, y justo debajo te aparecerán el número de intentos. Si lo pruebas, te invito a decirme que te ha parecido y en cuantos intentos lo has conseguido. Este juego lo puedes disfrutar desde cualquier dispositivo."
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Serieteca",
       "img": "https://raw.githubusercontent.com/IreneBioque/Portfolio/main/src/images/serieteca.jpg",
       "tech": ["HTML", "SCSS", "JAVASCRIPT", "GULP"],
@@ -30,9 +40,8 @@
       "page": "https://irenebioque.github.io/Serieteca/",
       "descripcion": "Si buscabas una página donde buscar series que quieres ver, descubrir nuevas series o simplemente hacer un seguimiento de las series que estás viendo ¡la has encontrado!. Desde esta página podrás buscar series y al pulsar sobre ellas se añadirán a favoritos. Puedes quitarla de favoritos siempre que quieras, y cuando vuelvas a abrir la página se habrán guardado tus preferencias. El diseño de este proyecto es responsive, por lo que puedes disfrutarlo desde cualquier dispositivo. "
     },
-
     {
-      "id": 4,
+      "id": 5,
       "name": "Rick and Morty Search Engine",
       "img": "https://raw.githubusercontent.com/IreneBioque/Portfolio/main/src/images/rick-y-morty.png",
       "tech": ["HTML", "SCSS", "REACT.JS"],
@@ -42,7 +51,7 @@
       "descripcion": "Si eres un fan de la serie de televisión Rick y Morty, o si simplemente te gustan los personajes y te preguntas que habrán pasado con ellos, esta aplicación es para ti. Este proyecto consiste en un buscador de personajes de Rick y Morty, donde podrás buscar por nombre y filtrar por especie además de por planeta de origen. Si pinchas sobre un personaje, te aparecerá información detallada de este, como su especie, su planeta de origen, su estado y el número de episodios en los que ha aparecido. Si en el buscador pones una url que no existe, verás que un portal te mandará a tu anterior dimensión. Podrás disfrutar de este proyecto desde cualquier dispositivo, ya que tiene un diseño responsive."
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Bussiness card creator",
       "img": "https://raw.githubusercontent.com/IreneBioque/Portfolio/main/src/images/bussiness-card-creator.jpg",
       "tech": ["HTML", "SCSS", "REACT.JS", "NODE.JS", "SQLITE"],
@@ -52,7 +61,7 @@
       "descripcion": "Con esta aplicación podrás crear tus tarjetas de visita profesionales. Lo único que tienes que hacer es elegir la paleta de colores, rellenar el formulario, subir una foto y darle a crear tarjeta. Automáticamente se te abrirá otra pestaña donde se verá tu tarjeta de visita, con una url compartible. En la misma página del formulario, tienes la opción que te permite compartir el link directamente por twitter. Además, los datos que introduzcas se quedan guardados en el navegador, por lo que si cierras la página y en otro momento quieres cambiar un dato, puedes hacerlo sin tener que introducir todos los datos otra vez. Y si quieres cambiar todos los datos, simplemente le tienes que dar al botón del reset y se borrarán todos los datos que hayas introducido previamente.Puedes disfrutar de este proyecto desde cualquier dispositivo, ya que tiene un diseño responsive"
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Roll the dices",
       "img": "https://raw.githubusercontent.com/IreneBioque/Portfolio/main/src/images/roll-the-dices.jpg",
       "tech": ["HTML", "SCSS", "JAVASCRIPT", "GULP"],
