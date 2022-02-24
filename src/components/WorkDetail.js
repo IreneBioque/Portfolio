@@ -5,20 +5,6 @@ const WorkDetail = (props) => {
   const technologies = props.proyect.tech.map((data) => {
     return <li>{data}</li>;
   });
-  // const [image, setImage] = useState('');
-  // if (props.proyect.id === 1) {
-  //   setImage(PhotoProyect1);
-  // } else if (props.proyect.id === 2) {
-  //   setImage(PhotoProyect2);
-  // } else if (props.proyect.id === 3) {
-  //   setImage(PhotoProyect3);
-  // } else if (props.proyect.id === 4) {
-  //   setImage(PhotoProyect4);
-  // } else if (props.proyect.id === 5) {
-  //   setImage(PhotoProyect5);
-  // } else {
-  //   setImage('');
-  // }
   return (
     <div className='detail' key={props.proyect.id}>
       <h1 className='titleDetail'>{props.proyect.name}</h1>
